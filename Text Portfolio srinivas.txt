@@ -1,0 +1,54 @@
+* HOME
+home__social
+https://www.linkedin.com/in/srinivas-g-52b792336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+https://github.com/Srinivasgowda2003/Srinivasgowda2003?tab=readme-ov-file
+
+home__description
+Passionate full-stack developer skilled in Java, cloud computing, and modern web technologies.
+
+
+
+* ABOUT
+about__description
+Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
+
+
+about__info-name
+Years <br> experience
+Completed <br> project
+Companies <br> worked
+
+
+* SERVICES
+services__modal-service
+Java backend development.
+Cloud architecture deployment (AWS).
+Database design & optimization (MySQL).
+Responsive web design with React.
+
+
+
+* PORTFOLIO
+portfolio__description
+Projects built with Java, PHP & MySQL, React, and cloud-based solutions, adaptable to all devices.
+
+
+
+* PROJECT
+project__description
+Looking for collaboration? Let’s build innovative and scalable applications together.
+
+
+
+* TESTIMONIAL
+testimonial__description
+I always deliver projects with high quality, strong attention to detail, and reliable support.
+
+
+
+* FOOTER
+footer__social
+https://www.instagram.com/developers_mind?igsh=MW9mYWhnZ3JjZXFsdQ==
+
+
+
