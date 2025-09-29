@@ -30,14 +30,15 @@ header {
 }
 
 header img {
-  border-radius: 50%;
-  width: 150px;          /* bigger size */
+  width: 150px;
   height: 150px;
-  object-fit: cover;     /* keeps correct aspect ratio */
-  object-position: center; /* centers your face */
+  border-radius: 50%;       /* makes it round */
+  object-fit: cover;        /* crops extra background */
+  object-position: center;  /* keeps face centered */
   margin-bottom: 15px;
-  border: 3px solid #007bff; /* optional border */
+  border: 3px solid #007bff; /* optional: blue border */
 }
+
 header img:hover {
   box-shadow: 0 0 20px rgba(0, 123, 255, 0.6);
   transform: scale(1.05);
