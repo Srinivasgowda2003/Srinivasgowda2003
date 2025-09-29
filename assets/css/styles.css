@@ -49,16 +49,29 @@ header p {
 
 /* ===== Navbar ===== */
 nav {
-  position: sticky;
-  top: 0;
-  background-color: transparent;
-  transition: background-color 0.3s, box-shadow 0.3s;
-  z-index: 1000;
+  position: sticky;   /* sticks to top */
+  top: 0;             /* from the very top */
+  width: 100%;
+  background: #fff;   /* white background */
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center; /* center links */
+  gap: 20px;
+  z-index: 1000;      /* keep above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav.scrolled {
-  background-color: rgba(0,0,0,0.8);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ff4c60;
+  border-bottom: 2px solid #ff4c60;
 }
 
 /* ===== Sections ===== */
@@ -229,4 +242,13 @@ nav a {
 
 nav a:hover {
   color: #007bff;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Active link style */
+nav a.active {
+  color: #ff4c60;
+  font-weight: bold;
+  border-bottom: 2px solid #ff4c60;
 }
