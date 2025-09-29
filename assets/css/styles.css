@@ -31,11 +31,14 @@ header {
 
 header img {
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
+  width: 150px;          /* bigger size */
+  height: 150px;
+  object-fit: cover;     /* keeps correct aspect ratio */
+  object-position: center; /* centers your face */
   margin-bottom: 15px;
+  border: 3px solid #007bff; /* optional border */
 }
+
 
 header h1 {
   font-size: 28px;
