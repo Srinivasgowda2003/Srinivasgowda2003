@@ -9,6 +9,12 @@
 html {
   scroll-behavior: smooth; /* Smooth scroll */
 }
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 80px 20px 20px; /* Added top padding for navbar */
+}
 
 body {
   background: linear-gradient(to right, #1c92d2, #f2fcfe); /* Gradient background */
@@ -199,4 +205,28 @@ button:hover, .btn:hover {
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+}
+/* ===== Sticky Navbar ===== */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding: 12px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #007bff;
 }
