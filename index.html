@@ -100,15 +100,22 @@
 
   <!-- JS -->
   <script src="./assets/js/script.js"></script>
-  <script>
-  document.querySelectorAll("#services li").forEach(item => {
-    item.addEventListener("click", () => {
-      let info = item.querySelector(".info");
-      info.style.display = 
-        (info.style.display === "block") ? "none" : "block";
+    <script>
+    document.querySelectorAll("#services li").forEach(item => {
+      item.addEventListener("click", () => {
+        // close all others
+        document.querySelectorAll("#services .info").forEach(info => {
+          if (info !== item.querySelector(".info")) {
+            info.style.display = "none";
+          }
+        });
+
+        // toggle clicked one
+        const info = item.querySelector(".info");
+        info.style.display = info.style.display === "block" ? "none" : "block";
+      });
     });
-  });
-  </script>
+    </script>
   
 </body>
 </html>
