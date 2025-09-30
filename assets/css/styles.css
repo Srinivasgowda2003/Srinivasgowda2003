@@ -126,8 +126,21 @@ h2 {
   padding: 10px;
   border-left: 4px solid #007bff;
   border-radius: 5px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;            /* makes it clickable */
+  transition: background 0.3s;
 }
+
+#services li:hover {
+  background: #f0f8ff;        /* slight color change on hover */
+}
+
+#services .info {
+  display: none;              /* hidden until clicked */
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
 
 #services li:hover {
   transform: translateY(-5px);
