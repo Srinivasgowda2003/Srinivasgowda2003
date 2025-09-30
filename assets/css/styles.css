@@ -28,15 +28,15 @@ header {
   text-align: center;
   margin-bottom: 30px;
 }
-
 header img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;       /* makes it round */
-  object-fit: cover;        /* crops extra background */
-  object-position: center;  /* keeps face centered */
-  margin-bottom: 15px;
-  border: 3px solid #007bff; /* optional: blue border */
+  width: 150px;        /* set same width */
+  height: 150px;       /* set same height */
+  object-fit: cover;   /* ensures the image fills without stretching */
+  border-radius: 50%;  /* makes it a perfect circle */
+  border: 3px solid #007bff; /* optional border */
+}
+
+ 
 }
 
 header img:hover {
