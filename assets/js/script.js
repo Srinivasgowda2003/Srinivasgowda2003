@@ -48,3 +48,12 @@ window.addEventListener('scroll', () => {
   const nav = document.querySelector('nav');
   nav.classList.toggle('scrolled', window.scrollY > 50);
 });
+function toggleInfo(element) {
+  let info = element.querySelector(".info");
+  if (info.style.display === "block") {
+    info.style.display = "none";
+  } else {
+    info.style.display = "block";
+  }
+}
+
